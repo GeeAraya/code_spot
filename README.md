@@ -1,8 +1,8 @@
 <html>
 <body>
-
 <h1>Links to Python / GEE Code</h1>
 <p>Basic Python Code to Interact with Google Earth Engine</p>
+- <a href="https://github.com/GeeAraya/code_spot/edit/master/gee_basics.p">Basic Python interaction with GEE</a><br>
 - <a href="https://github.com/GeeAraya/code_spot/blob/master/getGEENDVIImage.py">get NDVI from GEE</a><br>
 - <a href="https://github.com/GeeAraya/code_spot/blob/master/getGEEVideo.py">get a video from GEE</a><br>
 - <a href="https://github.com/GeeAraya/code_spot/blob/master/getGeeImage.py">get an image from GEE</a><br>
