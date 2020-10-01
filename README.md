@@ -1,8 +1,8 @@
 <html>
 <body>
 
-<h1>Gee Araya's public code storage site</h1>
-<p>This is a github pages site.</p>
-:)
+<h1>Links to Python / GEE Code</h1>
+<p>Code S</p>
+<a href="https://github.com/GeeAraya/code_spot/blob/master/geometry_classes_functions.py">geometry_classes_functions</a>
 </body>
 </html>
