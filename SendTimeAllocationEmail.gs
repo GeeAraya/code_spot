@@ -1,7 +1,7 @@
 function SendRGORemainingTimeAEmail() {
 //access the specific tab of the active google sheet
 var ss = SpreadsheetApp.getActiveSpreadsheet()  //access current active google sheet
-var sheet1=ss.getSheetByName('RGO-Invoice_Data'); //assign a variable to the sheet tab of interest
+var sheet1=ss.getSheetByName('SpecificTab'); //assign a variable to the sheet tab of interest
 
 // Setup iteration through list of rows in a column to send emails to
 for (i = 17; i <= 27;i++){
@@ -17,8 +17,8 @@ for (i = 17; i <= 27;i++){
       else var emailAddress = ghermay.araya@gmail.com;
   }
     // setup email message variables
-    var message = 'PMO REPORT: FEMA RGO Contract Utilization Report As of Last Payroll:\n -The Total Hours Allocated: ' + TotalHours +'\n - Hours Used: ' + HoursUsed +'\n - Hours Remaining: ' + HoursRemaining +'\n Please Contact the project manager or task manager for this project if you are running at two weeks or below on hours or pmo@nltgis.com for any inquries: ';
-    var subject = 'LOOP TEST 2: PMO REPORT- FEMA RGO Time Allocation Update: ' + TeamMemberName;
+    var message = 'PMO REPORT: Utilization Report As of Last Payroll:\n -The Total Hours Allocated: ' + TotalHours +'\n - Hours Used: ' + HoursUsed +'\n - Hours Remaining: ' + HoursRemaining +'\n Please Contact the project manager or task manager for this project if you are running at two weeks or below on hours or pmo@nltgis.com for any inquries: ';
+    var subject = ' PMO REPORT- Time Allocation Update: ' + TeamMemberName;
     MailApp.sendEmail(emailAddress, subject, message);
     //end the loop end here  
 }
