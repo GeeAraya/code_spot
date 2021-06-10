@@ -8,5 +8,7 @@
 - <a href="https://github.com/GeeAraya/code_spot/blob/master/getGeeImage.py">get an image from GEE</a><br>
 - <a href="https://github.com/GeeAraya/code_spot/blob/master/get_json_gee_aoi.py">basic code to load a json file containing Area of Interest in GEE format</a><br><br>
 more to come!
+  <p>Python Code to Use ArcPy for Geopressin and Suitability Analysis</p>
+coming more to come!
 </body>
 </html>
